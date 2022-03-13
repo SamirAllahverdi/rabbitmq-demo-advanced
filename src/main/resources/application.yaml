@@ -3,3 +3,6 @@ spring:
     addresses: localhost
     username: guest
     password: guest
+    listener:
+      simple:
+        prefetch: 2
