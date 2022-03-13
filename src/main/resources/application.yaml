@@ -6,3 +6,11 @@ spring:
     listener:
       simple:
         prefetch: 2
+
+#    Reliable Producer
+    publisher-confirm-type: correlated
+    publisher-returns: true
+    template:
+      mandatory: true
+
+
