@@ -23,6 +23,9 @@ public class RabbitMQConfig {
     public static final String SINGLE_QUEUE = "q.single";
     public static final String SINGLE_EXCHANGE = "x.single";
 
+    public static final String ANOTHER_DUMMY_EXCHANGE = "x.another-dummy";
+    public static final String ANOTHER_DUMMY_QUEUE = "q.another-dummy";
+
     public static final String NON_EXISTS_EXCHANGE = "x.non-exists-exchange";
     public static final String DUMMY_EXCHANGE_2 = "x.dummy2";
     public static final String INVOICE_CANCEL_EXCHANGE = "x.invoice.cancel";
